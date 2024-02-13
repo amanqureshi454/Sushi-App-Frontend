@@ -1,0 +1,21 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  background-color: #000;
+}
+
+.container {
+  padding: 0px 25px;
+  width: 100vw;
+}
+::selection{
+  background-color: #eeeeee;
+  color: #000;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+}

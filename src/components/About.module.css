@@ -1,0 +1,296 @@
+.book_page {
+  width: 95vw;
+  height: 95vh;
+  background-color: #000;
+  padding: 1px;
+  gap: 20px;
+  margin-top: 2rem;
+}
+.logo h5 {
+  color: rgb(239, 231, 210);
+  font-size: 1.8rem;
+  font-family: inherit;
+  cursor: pointer;
+  margin-left: 0.5rem;
+  text-transform: uppercase;
+}
+.logo span {
+  font-family: "sushi-font-1";
+  font-size: 2.2rem;
+}
+.left_side {
+  background-image: url("https://framerusercontent.com/images/5MZ021glbQW94mvUOxalCyrZkY.webp");
+  background-size: cover;
+  width: 60%;
+  height: 93vh;
+  opacity: 0.9;
+  border-radius: 30px;
+}
+.navbar_book {
+  position: absolute;
+  top: 10%;
+  left: 4%;
+  width: 33rem;
+  border-radius: 10px;
+  padding: 10px;
+}
+.navbar_content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  height: 45px;
+  background-color: transparent;
+}
+.nav_link_wrapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 4px;
+  background-color: #fff;
+}
+.hamburger .line1,
+.line2,
+.line3 {
+  width: 25px;
+  height: 3px;
+  background: rgb(239, 231, 210);
+  margin: 5px;
+  transition: all 0.3s ease;
+}
+.hamburger {
+  display: block;
+  cursor: pointer;
+  transform: translate(-5%, -50%);
+  margin-top: 3rem;
+  padding: 7px;
+  border-radius: 10px;
+  border: 1px solid #4c4c4c;
+  margin-left: 0.5rem;
+  position: relative;
+  background-color: transparent;
+  z-index: 201;
+}
+.toggle .line1 {
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+.toggle .line2 {
+  transition: all 0.7s ease;
+  width: 0;
+}
+.toggle .line3 {
+  transform: rotate(45deg) translate(-5px, -6px);
+}
+.navbar_book .link {
+  margin: 10px;
+  background: transparent;
+  color: rgb(239, 231, 210);
+  font-family: "sushi-font-2";
+  font-size: 0.87rem;
+  padding: 10px;
+  text-transform: uppercase;
+}
+.navbar_book .link:hover {
+  border: 1px solid rgb(239, 231, 210);
+  border-radius: 10px;
+}
+.border {
+  border: 1px solid #4c4c4c;
+  border-radius: 10px;
+}
+.book_heading h1 {
+  font-size: 6rem;
+  font-family: "sushi-font-1";
+  color: rgb(239, 231, 210);
+  position: absolute;
+  bottom: 5%;
+  text-transform: uppercase;
+  left: 5%;
+  line-height: 1;
+  background: transparent;
+}
+.right_side {
+  background: #000;
+  width: 55%;
+}
+.right_side_wrapper {
+  border-radius: 30px;
+  /* border: 1px solid #4c4c4c; */
+  height: 79vh;
+}
+.right_side_bottom {
+  border: 1px solid #4c4c4c;
+  /* padding: 20px; */
+  border-radius: 20px;
+  width: 100%;
+  height: 80px;
+  margin-top: 2rem;
+}
+.div_one {
+  height: 200px;
+  width: 100%;
+}
+.right_side_d_one {
+  border-radius: 15px;
+  width: 350px;
+  height: 230px;
+}
+.right_side_d_one img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+}
+.imgwrapper {
+  width: 350px;
+  height: 230px;
+}
+
+.left_side_d_three {
+  border-radius: 15px;
+  width: 350px;
+  height: 230px;
+}
+.left_side_d_three img {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+  border-radius: 15px;
+}
+.right_side_d_three {
+  border: 1px solid #4c4c4c;
+  width: 380px;
+  border-radius: 15px;
+  padding: 25px;
+  height: 230px;
+}
+.slick-prev:before,
+.slick-next:before {
+  font-family: "slick";
+  font-size: 30px;
+}
+.slick-prev,
+.slick-next {
+  font-size: rem;
+  line-height: 0;
+  position: absolute;
+  top: 30%;
+}
+.left_side_d_one {
+  border: 1px solid #4c4c4c;
+  width: 380px;
+  border-radius: 15px;
+  padding: 25px;
+  height: 230px;
+}
+.h3_left {
+  color: rgb(239, 231, 210);
+  font-size: 1.8rem;
+  font-family: "sushi-font-1";
+  text-transform: uppercase;
+}
+.para_left {
+  color: rgb(239, 231, 210);
+  font-size: 1rem;
+  font-family: inherit;
+}
+.center_side_d_two {
+  border: 1px solid #4c4c4c;
+  border-radius: 20px;
+  width: 235px;
+  height: 130px;
+  padding: 10px;
+}
+.right_side_bottom h4 {
+  color: rgb(239, 231, 210);
+  font-size: 1.2rem;
+  opacity: 0.8;
+  margin-top: 4px;
+  text-align: center;
+  font-family: "sushi-font-1";
+}
+.right_side_bottom {
+  border: 1px solid #4c4c4c;
+  padding: 20px;
+  border-radius: 20px;
+  width: 100%;
+  height: 80px;
+  margin-top: 2rem;
+}
+.h2_wrapper,
+.h4_small {
+  color: rgb(239, 231, 210);
+  text-align: center;
+  text-transform: uppercase;
+}
+.h2_wrapper {
+  font-size: 1.5rem;
+  font-family: "sushi-font-1";
+}
+.h4_small {
+  font-size: 1rem;
+  font-family: "sushi-font-2";
+}
+@media (max-width: 768px) {
+  .book_page {
+    flex-direction: column;
+    height: auto;
+    width: auto;
+  }
+  .mobile {
+    display: none;
+  }
+  .navbar_book .link {
+    margin: 0;
+  }
+  .navbar_book {
+    width: 90%;
+    margin: auto;
+    margin-top: 2rem;
+    position: relative;
+    top: auto;
+    left: auto;
+  }
+  .left_side {
+    height: 45vh;
+    width: 100%;
+  }
+  .book_heading h1 {
+    font-size: 4rem;
+    top: 40%;
+    text-transform: uppercase;
+    left: 20%;
+  }
+  .right_side {
+    width: 100%;
+  }
+  .div_one,
+  .div_two,
+  .div_three {
+    flex-direction: column;
+  }
+  .right_side_wrapper {
+    height: 100%;
+    margin-top: 8rem;
+  }
+  .left_side_d_one,
+  .right_side_d_one {
+    width: 100%;
+  }
+  .center_side_d_two {
+    width: 100%;
+  }
+  .div_two {
+    margin-top: 7.3rem;
+  }
+  .left_side_d_three,
+  .right_side_d_three {
+    width: 100%;
+  }
+  .right_side_bottom {
+    padding: 10px;
+  }
+  .right_side_bottom h4 {
+    font-size: 1rem;
+    margin-top: 16px;
+  }
+}
